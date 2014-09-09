@@ -2,3 +2,79 @@ body{
   background-color: #ffdc00;
 }
 
+input.ng-invalid{
+  background-color: red;
+}
+
+.pet{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 0px;
+  background-size: cover;
+  .name, .health, .weapon{
+    display: inline-block;
+    background-color: gray;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    max-height: 20px;
+    top: 0px;
+    margin: auto 0;
+    padding: 4px;
+  }
+}
+
+.weapon{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 0px;
+  background-size: cover;
+  .name, .damage{
+    background-color: black;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin: auto 0;
+    padding: 4px;
+    top: 0px;
+    font-weight: bold;
+  }
+}
+
+#cage{
+  background-color: silver;
+  border: 2px dashed black;
+  overflow: hidden;
+  h2, button{
+    margin: 0 auto;
+    width: 13%;
+  }
+}
+#player1, #player2{
+  margin: 5px;
+  display: inline-block;
+  border: 2px dotted red;
+}
+
+#player1{
+  float: left;
+}
+
+#player2{
+  float: right;
+}
+.healthBar{
+  border: 1px solid black;
+  height: 15px;
+  position: absolute;
+  bottom: 0px;
+}
+.zombie{
+  background-color: darkgreen;
+  color: red;
+}
